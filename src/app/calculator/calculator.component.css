@@ -1,0 +1,30 @@
+.calculator{
+  width: 300px;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 4px;
+}
+.prev
+{
+background-color: darkgray;
+border: 1px solid gray;
+border-radius: 4px;
+padding: 5px;
+margin: 2px;
+}
+.current{
+  background-color: rgb(224, 224, 224);
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 2px;
+  font-size: x-large;
+}
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons button{
+  width: 25%;
+  height: 40px;
+}
